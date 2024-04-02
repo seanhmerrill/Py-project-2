@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/index.css">
+    <title>Cart</title>
+</head>
+<body>
+    {% for cupcake in cupcakes %}
+        <tr>
+            <td>
+                <h6>{{ cupcake[0] }}</h6>
+            </td>
+            <td>
+                <h6>Price: {{ cupcake[1] }}</h6>
+            </td>
+            <td>
+                <h6>Qty: {{ cupcake[2] }}</h6>
+            </td>
+        </tr>
+    {% endfor %}
+</body>
+</html>

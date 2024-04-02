@@ -1,0 +1,6 @@
+size,name,price,flavor,frosting,sprinkles,filling
+Mini,Vanilla,0.99,Vanilla,Chocolate,[],
+Regular,Chocolate,2.99,Chocolate,Buttercream,[],
+Regular,Patriot,3.59,Vanilla,Red Velvet,"['Red', 'White', 'Blue']",Blueberry
+Regular,Choco-Bomb,3.99,Chocolate,Chocolate,['Chocolate'],Chocolate
+Large,Vanilla,1.99,Vanilla,Marshmello,[],Chocolate
